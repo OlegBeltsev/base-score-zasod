@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npm install --legacy-peer-deps"
-  },
+    "lint": "next lint"
+    },
   "dependencies": {
     "frames.js": "^0.22.0",
     "next": "16.0.5",
