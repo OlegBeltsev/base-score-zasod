@@ -27,7 +27,7 @@ const handleRequest = frames(async (ctx) => {
 
   // обычная логика для Warpcast (оставляем как было)
   const verifiedAddresses = ctx.message?.requesterVerifiedAddresses || [];
-  const chainIds = (ctx.message as any).requesterVerifiedAddressChainIds || [];
+  const chainIds = (ctx.message || {}).requesterVerifiedAddressChainIds || [];
 
   const baseIndex = chainIds.findIndex((id: number) => id === 8453);
   const baseAddress = baseIndex !== -1 ? verifiedAddresses[baseIndex] : undefined;
@@ -44,7 +44,7 @@ const handleRequest = frames(async (ctx) => {
     };
   }
 
-  const { score, rating } = await getScoreForAddress(baseAddress as `0x${string}`);
+  const { score, rating } = await getScoreForAddress(baseAddress );
 
   return {
     image: (
