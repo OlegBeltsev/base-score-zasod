@@ -29,7 +29,7 @@ const handleRequest = frames(async (ctx) => {
   const verifiedAddresses = ctx.message?.requesterVerifiedAddresses || [];
   const chainIds = (ctx.message || {}).requesterVerifiedAddressChainIds || [];
 
-  const baseIndex = chainIds.findIndex((id: number) => id === 8453);
+  const baseIndex = chainIds.findIndex((id) => id === 8453);
   const baseAddress = baseIndex !== -1 ? verifiedAddresses[baseIndex] : undefined;
 
   if (!baseAddress) {
