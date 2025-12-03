@@ -1,6 +1,6 @@
 import { createFrames } from "frames.js/next";
 import { farcasterHubContext } from "frames.js/middleware";
-import { getScoreForAddress } from "@/utils/score";
+import { getScoreForAddress } from "../utils/score";
 
 export const dynamic = 'force-dynamic';
 
