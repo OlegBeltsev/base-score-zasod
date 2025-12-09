@@ -1,0 +1,10 @@
+{
+  "version": "1",
+  "name": "Base Score",
+  "icon": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/icon.png",
+  "description": "Узнай свой рейтинг в сети Base",
+  "homeUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+  "baseBuilder": {
+    "ownerAddress": "0x3A4CcC6c3187eF5390905e9A6A49c9c115A66846"
+  }
+}
