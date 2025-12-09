@@ -11,6 +11,13 @@ const frames = createFrames({
 
 const handleRequest = frames(async (ctx) => {
   const isDebug = ctx.url.searchParams.get("debug") === "true";
+  const handleRequest = frames(async (ctx) => {
+  const sdk = ctx.sdk; // Minikit SDK
+  sdk.actions.ready(); // Вызываем ready() для Minikit
+
+  const isDebug = ctx.url.searchParams.get("debug") === "true";
+  // остальной код без изменений...
+});
 
   if (isDebug) {
     return {
