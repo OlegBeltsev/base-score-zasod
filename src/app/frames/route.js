@@ -15,7 +15,6 @@ const handleRequest = frames(async (ctx) => {
   sdk.actions.ready(); // Вызываем ready() для Minikit
 
   const isDebug = ctx.url.searchParams.get("debug") === "true";
-  // остальной код без изменений...
 });
 
   // Debug-режим — показываем, что всё ок
