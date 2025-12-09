@@ -1,11 +1,11 @@
 {
   "version": "1",
   "name": "Base Score",
-  "icon": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/icon.png",
-  "imageUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/screenshot.png",
+  "icon": "https://base-score-zasod-4rdcpvv6n-olegbeltsevs-projects.vercel.app/icon.png",
+  "imageUrl": "https://base-score-zasod-4rdcpvv6n-olegbeltsevs-projects.vercel.app/screenshot.png",
   "description": "Узнай свой рейтинг в сети Base по транзакциям, балансу и возрасту кошелька",
-  "splashImage": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/splash.png",
-  "homeUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+  "splashImage": "https://base-score-zasod-4rdcpvv6n-olegbeltsevs-projects.vercel.app/splash.png",
+  "homeUrl": "https://base-score-zasod-4rdcpvv6n-olegbeltsevs-projects.vercel.app/frames",
   "capabilities": [
     "wallet",
     "notification"
@@ -23,7 +23,7 @@
   },
   "embed": {
     "version": "1",
-    "image": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+    "image": "https://base-score-zasod-4rdcpvv6n-olegbeltsevs-projects.vercel.app/frames",
     "buttons": [
       {
         "label": "🚀 Подключить Base",
