@@ -10,8 +10,8 @@ const frames = createFrames({
 });
 
 const handleRequest = frames(async (ctx) => {
-  // Фикс "Ready not called" — вызов sdk.actions.ready() (из Minikit spec v1.0.0)
-  if (ctx.sdk) ctx.sdk.actions.ready();
+  // Фикс "Ready not called" — вызов sdk.actions.ready() после загрузки
+  if (ctx.sdk) await ctx.sdk.actions.ready();
 
   const isDebug = ctx.url.searchParams.get("debug") === "true";
 
