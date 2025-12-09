@@ -2,9 +2,32 @@
   "version": "1",
   "name": "Base Score",
   "icon": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/icon.png",
-  "description": "Узнай свой рейтинг в сети Base",
+  "description": "Узнай свой рейтинг в сети Base по транзакциям, балансу и возрасту кошелька",
+  "splashImage": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/splash.png",
   "homeUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+  "capabilities": [
+    "wallet",
+    "notification"
+  ],
   "baseBuilder": {
     "ownerAddress": "0x3A4CcC6c3187eF5390905e9A6A49c9c115A66846"
+  },
+  "developer": {
+    "name": "Oleg Beltsev",
+    "url": "https://github.com/OlegBeltsev/base-score-zasod"
+  },
+  "cta": {
+    "label": "🚀 Запустить Base Score",
+    "action": "post"
+  },
+  "embed": {
+    "version": "1",
+    "image": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+    "buttons": [
+      {
+        "label": "🚀 Подключить Base",
+        "action": "post"
+      }
+    ]
   }
 }
