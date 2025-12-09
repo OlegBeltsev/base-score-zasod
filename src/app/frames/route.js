@@ -10,8 +10,8 @@ const frames = createFrames({
 });
 
 const handleRequest = frames(async (ctx) => {
-  // ЭТА СТРОКА УБИРАЕТ СПЛЕШ-ЭКРАН НАВСЕГДА
-  ctx.sdk?.actions?.ready();
+  // Фикс "Ready not called" — вызов sdk.actions.ready() (из Minikit spec v1.0.0)
+  if (ctx.sdk) ctx.sdk.actions.ready();
 
   const isDebug = ctx.url.searchParams.get("debug") === "true";
 
@@ -71,7 +71,7 @@ const handleRequest = frames(async (ctx) => {
       </div>
     ),
     buttons: [
-      { label: "Пересчитать", action: "post" },
+      { label: "🔄 Пересчитать", action: "post" },
       { label: "✨ Поделиться", action: "post_redirect" },
     ],
   };
