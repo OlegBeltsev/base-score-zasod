@@ -3,9 +3,11 @@
   "name": "Base Score",
   "icon": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/icon.png",
   "imageUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/screenshot.png",
+  "ogImageUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/screenshot.png",
   "description": "Узнай свой рейтинг в сети Base по транзакциям, балансу и возрасту кошелька",
   "splashImage": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/splash.png",
   "homeUrl": "https://base-score-zasod-kj5aaivd8-olegbeltsevs-projects.vercel.app/frames",
+  "noindex": false,
   "capabilities": [
     "wallet",
     "notification"
